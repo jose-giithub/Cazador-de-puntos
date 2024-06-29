@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.GridPane?>
+
+<GridPane alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="400.0" prefWidth="600.0" styleClass="grid-pane" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Control.Principal">
+   <columnConstraints>
+      <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" maxWidth="1.7976931348623157E308" prefWidth="250.0" />
+      <ColumnConstraints />
+      <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" maxWidth="1.7976931348623157E308" prefWidth="250.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints maxHeight="0.0" minHeight="0.0" prefHeight="0.0" />
+      <RowConstraints maxHeight="1.7976931348623157E308" minHeight="250.0" prefHeight="250.0" valignment="CENTER" vgrow="ALWAYS" />
+   </rowConstraints>
+   <children>
+      <GridPane fx:id="idGridPaneCasillas" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="390.0" prefWidth="250.0" GridPane.rowIndex="1">
+        <columnConstraints>
+            <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" maxWidth="1.7976931348623157E308" minWidth="0.0" prefWidth="0.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" maxWidth="1.7976931348623157E308" minWidth="0.0" prefWidth="0.0" />
+          <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" maxWidth="1.7976931348623157E308" minWidth="0.0" prefWidth="0.0" />
+          <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" maxWidth="1.7976931348623157E308" minWidth="0.0" prefWidth="0.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="1.7976931348623157E308" minHeight="0.0" prefHeight="0.0" valignment="CENTER" vgrow="ALWAYS" />
+          <RowConstraints maxHeight="1.7976931348623157E308" minHeight="0.0" prefHeight="0.0" valignment="CENTER" vgrow="ALWAYS" />
+          <RowConstraints maxHeight="1.7976931348623157E308" minHeight="0.0" prefHeight="0.0" valignment="CENTER" vgrow="ALWAYS" />
+            <RowConstraints maxHeight="1.7976931348623157E308" minHeight="0.0" prefHeight="0.0" valignment="CENTER" vgrow="ALWAYS" />
+        </rowConstraints>
+         <GridPane.margin>
+            <Insets bottom="30.0" left="10.0" right="10.0" top="30.0" />
+         </GridPane.margin>
+         <children>
+            <Button fx:id="idBoton1" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onAction="#mostrarLetra" prefHeight="65.0" prefWidth="65.0" style="-fx-background-color: white; -fx-border-color: black;" styleClass="botonJuego" text="?" textAlignment="CENTER">
+               <font>
+                  <Font name="Tahoma Bold" size="21.0" />
+               </font>
+            </Button>
+            <Button fx:id="idBoton2" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onAction="#mostrarLetra" prefHeight="65.0" prefWidth="65.0" style="-fx-background-color: white; -fx-border-color: black;" styleClass="botonJuego" text="?" textAlignment="CENTER" GridPane.columnIndex="1">
+               <font>
+                  <Font name="Tahoma Bold" size="21.0" />
+               </font>
+            </Button>
+            <Button fx:id="idBoton3" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onAction="#mostrarLetra" prefHeight="65.0" prefWidth="65.0" style="-fx-background-color: white; -fx-border-color: black;" styleClass="botonJuego" text="?" textAlignment="CENTER" GridPane.columnIndex="2">
+               <font>
+                  <Font name="Tahoma Bold" size="21.0" />
+               </font>
+            </Button>
+            <Button fx:id="idBoton4" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onAction="#mostrarLetra" prefHeight="65.0" prefWidth="65.0" style="-fx-background-color: white; -fx-border-color: black;" styleClass="botonJuego" text="?" textAlignment="CENTER" GridPane.columnIndex="3">
+               <font>
+                  <Font name="Tahoma Bold" size="21.0" />
+               </font>
+            </Button>
+            <Button fx:id="idBoton5" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onAction="#mostrarLetra" prefHeight="65.0" prefWidth="65.0" style="-fx-background-color: white; -fx-border-color: black;" styleClass="botonJuego" text="?" textAlignment="CENTER" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Tahoma Bold" size="21.0" />
+               </font>
+            </Button>
+            <Button fx:id="idBoton6" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onAction="#mostrarLetra" prefHeight="65.0" prefWidth="65.0" style="-fx-background-color: white; -fx-border-color: black;" styleClass="botonJuego" text="?" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Tahoma Bold" size="21.0" />
+               </font>
+            </Button>
+            <Button fx:id="idBoton7" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onAction="#mostrarLetra" prefHeight="65.0" prefWidth="65.0" style="-fx-background-color: white; -fx-border-color: black;" styleClass="botonJuego" text="?" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Tahoma Bold" size="21.0" />
+               </font>
+            </Button>
+            <Button fx:id="idBoton8" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onAction="#mostrarLetra" prefHeight="65.0" prefWidth="65.0" style="-fx-background-color: white; -fx-border-color: black;" styleClass="botonJuego" text="?" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Tahoma Bold" size="21.0" />
+               </font>
+            </Button>
+            <Button fx:id="idBoton9" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onAction="#mostrarLetra" prefHeight="65.0" prefWidth="65.0" style="-fx-background-color: white; -fx-border-color: black;" styleClass="botonJuego" text="?" textAlignment="CENTER" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Tahoma Bold" size="21.0" />
+               </font>
+            </Button>
+            <Button fx:id="idBoton10" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onAction="#mostrarLetra" prefHeight="65.0" prefWidth="65.0" style="-fx-background-color: white; -fx-border-color: black;" styleClass="botonJuego" text="?" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Tahoma Bold" size="21.0" />
+               </font>
+            </Button>
+            <Button fx:id="idBoton11" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onAction="#mostrarLetra" prefHeight="65.0" prefWidth="65.0" style="-fx-background-color: white; -fx-border-color: black;" styleClass="botonJuego" text="?" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Tahoma Bold" size="21.0" />
+               </font>
+            </Button>
+            <Button fx:id="idBoton12" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onAction="#mostrarLetra" prefHeight="65.0" prefWidth="65.0" style="-fx-background-color: white; -fx-border-color: black;" styleClass="botonJuego" text="?" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Tahoma Bold" size="21.0" />
+               </font>
+            </Button>
+            <Button fx:id="idBoton13" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onAction="#mostrarLetra" prefHeight="65.0" prefWidth="65.0" style="-fx-background-color: white; -fx-border-color: black;" styleClass="botonJuego" text="?" textAlignment="CENTER" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Tahoma Bold" size="21.0" />
+               </font>
+            </Button>
+            <Button fx:id="idBoton14" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onAction="#mostrarLetra" prefHeight="65.0" prefWidth="65.0" style="-fx-background-color: white; -fx-border-color: black;" styleClass="botonJuego" text="?" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Tahoma Bold" size="21.0" />
+               </font>
+            </Button>
+            <Button fx:id="idBoton15" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onAction="#mostrarLetra" prefHeight="65.0" prefWidth="65.0" style="-fx-background-color: white; -fx-border-color: black;" styleClass="botonJuego" text="?" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Tahoma Bold" size="21.0" />
+               </font>
+            </Button>
+            <Button fx:id="idBoton16" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onAction="#mostrarLetra" prefHeight="65.0" prefWidth="65.0" style="-fx-background-color: white; -fx-border-color: black;" styleClass="botonJuego" text="?" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Tahoma Bold" size="21.0" />
+               </font>
+            </Button>
+         </children>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </GridPane>
+      <GridPane alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="390.0" prefWidth="250.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="95.0" minHeight="10.0" prefHeight="68.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="177.0" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="194.0" minHeight="10.0" prefHeight="102.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="176.0" minHeight="10.0" prefHeight="88.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <TextField fx:id="idTextSumaPuntos" alignment="TOP_RIGHT" editable="false" text="0" GridPane.halignment="RIGHT" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Tahoma Bold" size="30.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets right="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <HBox alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="245.0" minWidth="195.0" prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="3">
+               <children>
+                  <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#salirPartida" text="Salir" translateX="-10.0">
+                     <padding>
+                        <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                     </padding>
+                  </Button>
+                  <Button fx:id="idBotonReinicio" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#reiniciarPartida" prefHeight="51.0" prefWidth="147.0" text="Empezar">
+                     <padding>
+                        <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                     </padding>
+                  </Button>
+               </children>
+            </HBox>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Puntos:" wrappingWidth="79.6708984375" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Record:" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Tahoma Bold" size="20.0" />
+               </font>
+            </Text>
+            <Label fx:id="idLabelRecord" text="0" textAlignment="CENTER" translateX="100.0" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Tahoma Bold" size="20.0" />
+               </font>
+            </Label>
+         </children>
+         <GridPane.margin>
+            <Insets left="20.0" right="10.0" />
+         </GridPane.margin>
+      </GridPane>
+   </children>
+</GridPane>
